@@ -121,7 +121,7 @@ const About = () => {
               5 years ago I began freelancing as a developer. Since then, I`ve done remote work for different agencies,
               consulted for startups, and collaborated on digital products.
             </motion.p>
-            <motion.div className = ' md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8'
+            <motion.div className = 'hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8'
                         variants = {fadeIn('right', 0.6)}
                         initial = 'hidden'
                         animate = 'show'
