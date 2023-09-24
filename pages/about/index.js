@@ -17,18 +17,26 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          '<FaHtml5 />',
-          '<FaCss3 />',
-          '<FaJs />',
-          '<FaReact />',
-          '<SiNextdotjs />',
-          '<SiFramer />',
-          '<FaWordpress />'
+          // eslint-disable-next-line react/jsx-key
+          <FaHtml5 />,
+          // eslint-disable-next-line react/jsx-key
+          <FaCss3 />,
+          // eslint-disable-next-line react/jsx-key
+          <FaJs />,
+          // eslint-disable-next-line react/jsx-key
+          <FaReact />,
+          // eslint-disable-next-line react/jsx-key
+          <SiNextdotjs />,
+          // eslint-disable-next-line react/jsx-key
+          <SiFramer />,
+          // eslint-disable-next-line react/jsx-key
+          <FaWordpress />
         ]
       },
       {
         title: 'UI/UX Design',
-        icons: ['<FaFigma />', '<SiAdobexd />', '<SiAdobephotoshop />']
+        // eslint-disable-next-line react/jsx-key
+        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />]
       }
     ]
   },
