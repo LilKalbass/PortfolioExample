@@ -1,1 +1,1 @@
-https://portfolio-example-bice.vercel.app/about
+https://portfolio-example-bice.vercel.app
